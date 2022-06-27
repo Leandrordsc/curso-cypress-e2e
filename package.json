@@ -7,9 +7,7 @@
     "cy:open": "cypress open",
     "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
     "test": "cypress run",
-    "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/integration/authenticatedScenarios.spec.js",
-    "lint": "npx standard",
-    "lint:fix": "npx standard --fix"  
+    "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/integration/authenticatedScenarios.spec.js"
   },
   "keywords": [],
   "author": "",
